@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Smoke Test">
+	<test>
+		<classes>
+			<class name="Annotations1.DependcyAnno"/>
+		</classes>
+	</test>
+
+
+</suite>

@@ -1,0 +1,20 @@
+//input[@id='username']
+# - id
+. - class
+#username
+input#username
+input[id=username]
+
+
+//input[@class='_2IX_2- VJZDxU']
+._2IX_2-.VJZDxU
+input._2IX_2-.VJZDxU
+#container > div > div._2dSUjN > div > div._36HLxm.col.col-3-5 > div > form > div.IiD88i._351hSN > input
+
+
+div.text-input.flex > input#session_key
+
+
+//form[@autocomplete="on"]/div[1]/input - xpath
+form[autocomplete=on] > div:nth-child(1) > input - css selector
+form[autocomplete=on] input - jump to input tag

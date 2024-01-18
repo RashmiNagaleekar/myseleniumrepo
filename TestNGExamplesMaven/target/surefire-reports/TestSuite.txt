@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 1, Errors: 0, Skipped: 3, Time elapsed: 0.868 s <<< FAILURE! - in TestSuite
+TestCases.suiteB.ValidateUserRegistration.validate  Time elapsed: 0.017 s  <<< FAILURE!
+java.lang.AssertionError: 
+The following asserts failed:
+	expected [XYZ] but found [ABC],
+	Error message did not expect to find [true] but found [false],
+	404: Error came up
+	at TestCases.suiteB.ValidateUserRegistration.validate(ValidateUserRegistration.java:18)
+

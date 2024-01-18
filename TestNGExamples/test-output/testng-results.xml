@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="7" failed="1" skipped="3">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-23T20:15:24 IST" name="Suite" finished-at="2023-05-23T20:15:24 IST" duration-ms="0">
+    <groups>
+    </groups>
+  </suite> <!-- Suite -->
+  <suite started-at="2023-05-23T20:15:23 IST" name="Suite B" finished-at="2023-05-23T20:15:24 IST" duration-ms="29">
+    <groups>
+    </groups>
+    <test started-at="2023-05-23T20:15:23 IST" name="Search Buy Phone" finished-at="2023-05-23T20:15:24 IST" duration-ms="14">
+      <class name="TestCases.suiteB.SearchAndBuyPhone">
+        <test-method signature="search(org.testng.ITestContext)[pri:1, instance:TestCases.suiteB.SearchAndBuyPhone@3427b02d]" started-at="2023-05-23T20:15:23 IST" name="search" finished-at="2023-05-23T20:15:23 IST" duration-ms="2" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@77f80c04]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipped test]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipped test
+at TestCases.suiteB.SearchAndBuyPhone.search(SearchAndBuyPhone.java:17)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1207)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method signature="selectPhone(org.testng.ITestContext)[pri:2, instance:TestCases.suiteB.SearchAndBuyPhone@3427b02d]" started-at="2023-05-23T20:15:23 IST" name="selectPhone" finished-at="2023-05-23T20:15:23 IST" depends-on-methods="TestCases.suiteB.SearchAndBuyPhone.search" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method SearchAndBuyPhone.selectPhone(org.testng.ITestContext)[pri:2, instance:TestCases.suiteB.SearchAndBuyPhone@3427b02d] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method SearchAndBuyPhone.selectPhone(org.testng.ITestContext)[pri:2, instance:TestCases.suiteB.SearchAndBuyPhone@3427b02d] depends on not successfully finished methods
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:102)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1207)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectPhone -->
+        <test-method signature="checkout(org.testng.ITestContext)[pri:3, instance:TestCases.suiteB.SearchAndBuyPhone@3427b02d]" started-at="2023-05-23T20:15:24 IST" name="checkout" finished-at="2023-05-23T20:15:24 IST" depends-on-methods="TestCases.suiteB.SearchAndBuyPhone.search, TestCases.suiteB.SearchAndBuyPhone.selectPhone" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method SearchAndBuyPhone.checkout(org.testng.ITestContext)[pri:3, instance:TestCases.suiteB.SearchAndBuyPhone@3427b02d] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method SearchAndBuyPhone.checkout(org.testng.ITestContext)[pri:3, instance:TestCases.suiteB.SearchAndBuyPhone@3427b02d] depends on not successfully finished methods
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:102)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1207)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkout -->
+      </class> <!-- TestCases.suiteB.SearchAndBuyPhone -->
+    </test> <!-- Search Buy Phone -->
+    <test started-at="2023-05-23T20:15:24 IST" name="Login Test" finished-at="2023-05-23T20:15:24 IST" duration-ms="9">
+      <class name="TestCases.suiteB.ValidateUserRegistration">
+        <test-method signature="validate()[pri:0, instance:TestCases.suiteB.ValidateUserRegistration@243c4f91]" started-at="2023-05-23T20:15:24 IST" name="validate" finished-at="2023-05-23T20:15:24 IST" duration-ms="6" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [XYZ] but found [ABC],
+Error message expected [true] but found [false],
+404: Error came up]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [XYZ] but found [ABC],
+Error message expected [true] but found [false],
+404: Error came up
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+at TestCases.suiteB.ValidateUserRegistration.validate(ValidateUserRegistration.java:18)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1207)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate -->
+      </class> <!-- TestCases.suiteB.ValidateUserRegistration -->
+    </test> <!-- Login Test -->
+  </suite> <!-- Suite B -->
+  <suite started-at="2023-05-23T20:15:23 IST" name="Suite A" finished-at="2023-05-23T20:15:23 IST" duration-ms="151">
+    <groups>
+    </groups>
+    <test started-at="2023-05-23T20:15:23 IST" name="Create User" finished-at="2023-05-23T20:15:23 IST" duration-ms="67">
+      <class name="TestCases.suiteA.CreateUser">
+        <test-method signature="createUser(java.lang.String,java.lang.String,int,java.lang.String,java.lang.String)[pri:0, instance:TestCases.suiteA.CreateUser@1677d1]" started-at="2023-05-23T20:15:23 IST" name="createUser" data-provider="getData" finished-at="2023-05-23T20:15:23 IST" duration-ms="16" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1234567890]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Admin@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[India]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method signature="createUser(java.lang.String,java.lang.String,int,java.lang.String,java.lang.String)[pri:0, instance:TestCases.suiteA.CreateUser@1677d1]" started-at="2023-05-23T20:15:23 IST" name="createUser" data-provider="getData" finished-at="2023-05-23T20:15:23 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mozilla]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SuperAdmin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[897654321]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[SuperAdmin@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[UK]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method signature="createUser(java.lang.String,java.lang.String,int,java.lang.String,java.lang.String)[pri:0, instance:TestCases.suiteA.CreateUser@1677d1]" started-at="2023-05-23T20:15:23 IST" name="createUser" data-provider="getData" finished-at="2023-05-23T20:15:23 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Read Only]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[987654321]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[readonly@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[US]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method signature="deleteUser(java.lang.String,java.lang.String,int,java.lang.String,java.lang.String)[pri:0, instance:TestCases.suiteA.CreateUser@1677d1]" started-at="2023-05-23T20:15:23 IST" name="deleteUser" data-provider="getData" finished-at="2023-05-23T20:15:23 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mozilla]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SuperAdmin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[897654321]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[SuperAdmin@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[UK]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUser -->
+        <test-method signature="deleteUser(java.lang.String,java.lang.String,int,java.lang.String,java.lang.String)[pri:0, instance:TestCases.suiteA.CreateUser@1677d1]" started-at="2023-05-23T20:15:23 IST" name="deleteUser" data-provider="getData" finished-at="2023-05-23T20:15:23 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Read Only]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[987654321]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[readonly@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[US]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUser -->
+      </class> <!-- TestCases.suiteA.CreateUser -->
+    </test> <!-- Create User -->
+    <test started-at="2023-05-23T20:15:23 IST" name="Login User" finished-at="2023-05-23T20:15:23 IST" duration-ms="13">
+      <class name="TestCases.suiteA.LoginTest">
+        <test-method is-config="true" signature="init()[pri:0, instance:TestCases.suiteA.LoginTest@31368b99]" started-at="2023-05-23T20:15:23 IST" name="init" finished-at="2023-05-23T20:15:23 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestCases.suiteA.LoginTest@31368b99]" started-at="2023-05-23T20:15:23 IST" name="beforeMethod" finished-at="2023-05-23T20:15:23 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="doLogin()[pri:0, instance:TestCases.suiteA.LoginTest@31368b99]" started-at="2023-05-23T20:15:23 IST" name="doLogin" finished-at="2023-05-23T20:15:23 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestCases.suiteA.LoginTest@31368b99]" started-at="2023-05-23T20:15:23 IST" name="afterMethod" finished-at="2023-05-23T20:15:23 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestCases.suiteA.LoginTest@31368b99]" started-at="2023-05-23T20:15:23 IST" name="beforeMethod" finished-at="2023-05-23T20:15:23 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="logout()[pri:0, instance:TestCases.suiteA.LoginTest@31368b99]" started-at="2023-05-23T20:15:23 IST" name="logout" finished-at="2023-05-23T20:15:23 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestCases.suiteA.LoginTest@31368b99]" started-at="2023-05-23T20:15:23 IST" name="afterMethod" finished-at="2023-05-23T20:15:23 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:TestCases.suiteA.LoginTest@31368b99]" started-at="2023-05-23T20:15:23 IST" name="quit" finished-at="2023-05-23T20:15:23 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- TestCases.suiteA.LoginTest -->
+    </test> <!-- Login User -->
+  </suite> <!-- Suite A -->
+</testng-results>

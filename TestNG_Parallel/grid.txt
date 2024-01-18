@@ -1,0 +1,8 @@
+Hub Setup -> Port 4444. Fired on hib machine
+java -jar F:\Selenium\selenium-server-4.15.0.jar -role hub
+
+Node 1 Setup->
+java -Dwebdriver.gecko.driver="F:\Drivers\geckodriver.exe" -Dwebdriver.chrome.driver       selenium-server-standalone.jar -role node -nodeConfig node1Config.json
+
+Node 2 Setup ->
+java -Dwebdriver.gecko.driver="F:\Drivers\geckodriver.exe" -Dwebdriver.chrome.driver       selenium-server-standalone.jar -role node -nodeConfig node1Config.json

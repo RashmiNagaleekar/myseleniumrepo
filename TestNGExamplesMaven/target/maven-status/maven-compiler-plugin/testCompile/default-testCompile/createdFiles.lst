@@ -1,0 +1,5 @@
+TestCases\suiteA\LoginTest.class
+TestCases\suiteB\ValidateUserRegistration.class
+dataprovider\TestDataProvider.class
+TestCases\suiteB\SearchAndBuyPhone.class
+TestCases\suiteA\CreateUser.class

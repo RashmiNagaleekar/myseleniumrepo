@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="0" failures="2" hostname="Rashmi" id="0" name="CustomProjectRunner" package="testcases" skipped="1" tests="8" time="0.139" timestamp="2023-04-18T15:01:51">
+      <properties>
+          <property name="java.vendor" value="Oracle Corporation" />
+
+          <property name="env.USERDOMAIN_ROAMINGPROFILE" value="RASHMI" />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="ant.file.Module_8_Junit_Ant" value="C:\Users\Lenovo\eclipse-workspace\JunitProject2\build.xml" />
+
+          <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+
+          <property name="env.PROMPT" value="$P$G" />
+
+          <property name="test.reportsDir" value="C:\Users\Lenovo\eclipse-workspace\JunitProject2\Report" />
+
+          <property name="os.name" value="Windows 11" />
+
+          <property name="env.DriverData" value="C:\Windows\System32\Drivers\DriverData" />
+
+          <property name="ws.home" value="C:\Users\Lenovo\eclipse-workspace\JunitProject2" />
+
+          <property name="env.COMPUTERNAME" value="RASHMI" />
+
+          <property name="env.CommonProgramW6432" value="C:\Program Files\Common Files" />
+
+          <property name="env.ALLUSERSPROFILE" value="C:\ProgramData" />
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+
+          <property name="ant.home" value="F:\Selenium\apache-ant-1.9.16-bin\apache-ant-1.9.16" />
+
+          <property name="java.runtime.version" value="19.0.1+10-21" />
+
+          <property name="env.HOMEPATH" value="\Users\Lenovo" />
+
+          <property name="user.name" value="Lenovo" />
+
+          <property name="stdout.encoding" value="Cp1252" />
+
+          <property name="user.language" value="en" />
+
+          <property name="ant.file.type.Module_8_Junit_Ant" value="file" />
+
+          <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-19\bin" />
+
+          <property name="env.EFC_11400" value="1" />
+
+          <property name="ant.project.default-target" value="usage" />
+
+          <property name="ant.project.name" value="Module_8_Junit_Ant" />
+
+          <property name="java.vm.compressedOopsMode" value="32-bit" />
+
+          <property name="java.version" value="19.0.1" />
+
+          <property name="env.PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 126 Stepping 5, GenuineIntel" />
+
+          <property name="env.TEMP" value="C:\Users\Lenovo\AppData\Local\Temp" />
+
+          <property name="sun.arch.data.model" value="64" />
+
+          <property name="env._JAVACMD" value="java.exe" />
+
+          <property name="sun.cpu.isalist" value="amd64" />
+
+          <property name="env.HOMEDRIVE" value="C:" />
+
+          <property name="sun.jnu.encoding" value="Cp1252" />
+
+          <property name="file.separator" value="\" />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="java.class.version" value="63.0" />
+
+          <property name="user.country" value="IN" />
+
+          <property name="java.home" value="C:\Program Files\Java\jdk-19" />
+
+          <property name="env.PSModulePath" value="C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules" />
+
+          <property name="env.APPDATA" value="C:\Users\Lenovo\AppData\Roaming" />
+
+          <property name="java.vm.info" value="mixed mode, sharing" />
+
+          <property name="env.PUBLIC" value="C:\Users\Public" />
+
+          <property name="env.ComSpec" value="C:\WINDOWS\system32\cmd.exe" />
+
+          <property name="env.OS" value="Windows_NT" />
+
+          <property name="env.CommonProgramFiles" value="C:\Program Files\Common Files" />
+
+          <property name="os.version" value="10.0" />
+
+          <property name="ant.file" value="C:\Users\Lenovo\eclipse-workspace\JunitProject2\build.xml" />
+
+          <property name="env.ProgramW6432" value="C:\Program Files" />
+
+          <property name="env._USE_CLASSPATH" value="no" />
+
+          <property name="env.=::" value="::\" />
+
+          <property name="path.separator" value=";" />
+
+          <property name="java.vm.version" value="19.0.1+10-21" />
+
+          <property name="env.ZES_ENABLE_SYSMAN" value="1" />
+
+          <property name="user.variant" value="" />
+
+          <property name="env.USERPROFILE" value="C:\Users\Lenovo" />
+
+          <property name="ant.library.dir" value="F:\Selenium\apache-ant-1.9.16-bin\apache-ant-1.9.16\lib" />
+
+          <property name="stderr.encoding" value="Cp1252" />
+
+          <property name="env.TMP" value="C:\Users\Lenovo\AppData\Local\Temp" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+          <property name="user.script" value="" />
+
+          <property name="user.home" value="C:\Users\Lenovo" />
+
+          <property name="test.dest" value="C:\Users\Lenovo\eclipse-workspace\JunitProject2/build" />
+
+          <property name="env.ProgramData" value="C:\ProgramData" />
+
+          <property name="env.ProgramFiles(x86)" value="C:\Program Files (x86)" />
+
+          <property name="env.SESSIONNAME" value="Console" />
+
+          <property name="java.version.date" value="2022-10-18" />
+
+          <property name="java.specification.vendor" value="Oracle Corporation" />
+
+          <property name="env.NUMBER_OF_PROCESSORS" value="8" />
+
+          <property name="java.library.path" value="C:\Program Files\Java\jdk-19\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-19\bin;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-11.0.17\jdk-11.0.17\bin;F:\Selenium\apache-maven-3.9.1-bin\apache-maven-3.9.1\bin;F:\Selenium\apache-ant-1.9.16-bin\apache-ant-1.9.16\bin;C:\Users\Lenovo\AppData\Local\Microsoft\WindowsApps;;." />
+
+          <property name="java.vendor.url" value="https://java.oracle.com/" />
+
+          <property name="java.vm.vendor" value="Oracle Corporation" />
+
+          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner testcases.CustomProjectRunner skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Lenovo\eclipse-workspace\JunitProject2\Report\TEST-testcases.CustomProjectRunner.xml crashfile=C:\Users\Lenovo\eclipse-workspace\JunitProject2\junitvmwatcher5842675105516532950.properties propsfile=C:\Users\Lenovo\eclipse-workspace\JunitProject2\junit6807859178050611761.properties" />
+
+          <property name="java.class.path" value="C:\Users\Lenovo\eclipse-workspace\JunitProject2\build;C:\Users\Lenovo\eclipse-workspace\JunitProject2\Temp\org.hamcrest.core_1.3.0.v20180420-1519.jar;C:\Users\Lenovo\eclipse-workspace\JunitProject2\Temp\org.junit_4.13.2.v20211018-1956.jar;F:\Selenium\apache-ant-1.9.16-bin\apache-ant-1.9.16\lib\ant-launcher.jar;F:\Selenium\apache-ant-1.9.16-bin\apache-ant-1.9.16\lib\ant.jar;F:\Selenium\apache-ant-1.9.16-bin\apache-ant-1.9.16\lib\ant-junit.jar;F:\Selenium\apache-ant-1.9.16-bin\apache-ant-1.9.16\lib\ant-junit4.jar" />
+
+          <property name="ant.version" value="Apache Ant(TM) version 1.9.16 compiled on July 10 2021" />
+
+          <property name="native.encoding" value="Cp1252" />
+
+          <property name="ws.jars" value="C:\Users\Lenovo\eclipse-workspace\JunitProject2\Temp" />
+
+          <property name="jdk.debug" value="release" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="ant.file.type" value="file" />
+
+          <property name="env.windir" value="C:\WINDOWS" />
+
+          <property name="env.LOGONSERVER" value="\\RASHMI" />
+
+          <property name="java.vm.specification.version" value="19" />
+
+          <property name="env.PROCESSOR_ARCHITECTURE" value="AMD64" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="sun.os.patch.level" value="" />
+
+          <property name="env.OneDrive" value="C:\Users\Lenovo\OneDrive" />
+
+          <property name="env.ANT_HOME" value="F:\Selenium\apache-ant-1.9.16-bin\apache-ant-1.9.16" />
+
+          <property name="env.ProgramFiles" value="C:\Program Files" />
+
+          <property name="env.PROCESSOR_REVISION" value="7e05" />
+
+          <property name="java.io.tmpdir" value="C:\Users\Lenovo\AppData\Local\Temp\" />
+
+          <property name="env.CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files" />
+
+          <property name="test.src" value="C:\Users\Lenovo\eclipse-workspace\JunitProject2/src" />
+
+          <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/" />
+
+          <property name="env.OneDriveConsumer" value="C:\Users\Lenovo\OneDrive" />
+
+          <property name="env.SystemRoot" value="C:\WINDOWS" />
+
+          <property name="os.arch" value="amd64" />
+
+          <property name="env.ANT_CMD_LINE_ARGS" value=" run" />
+
+          <property name="user.dir" value="C:\Users\Lenovo\eclipse-workspace\JunitProject2" />
+
+          <property name="env.MAVEN_HOME" value="F:\Selenium\apache-maven-3.9.1-bin\apache-maven-3.9.1" />
+
+          <property name="env.LOCALAPPDATA" value="C:\Users\Lenovo\AppData\Local" />
+
+          <property name="line.separator" value="&#xd;&#xa;" />
+
+          <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+
+          <property name="env.PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC" />
+
+          <property name="env.Path" value="C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-19\bin;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-11.0.17\jdk-11.0.17\bin;F:\Selenium\apache-maven-3.9.1-bin\apache-maven-3.9.1\bin;F:\Selenium\apache-ant-1.9.16-bin\apache-ant-1.9.16\bin;C:\Users\Lenovo\AppData\Local\Microsoft\WindowsApps;" />
+
+          <property name="basedir" value="C:\Users\Lenovo\eclipse-workspace\JunitProject2" />
+
+          <property name="ant.java.version" value="19" />
+
+          <property name="ant.core.lib" value="F:\Selenium\apache-ant-1.9.16-bin\apache-ant-1.9.16\lib\ant.jar" />
+
+          <property name="env.USERNAME" value="Lenovo" />
+
+          <property name="env.SystemDrive" value="C:" />
+
+          <property name="file.encoding" value="UTF-8" />
+
+          <property name="env.USERDOMAIN" value="RASHMI" />
+
+          <property name="java.specification.version" value="19" />
+
+          <property name="env.=C:" value="C:\Users\Lenovo\eclipse-workspace\JunitProject2" />
+
+          <property name="ant.project.invoked-targets" value="run" />
+
+          <property name="env.PROCESSOR_LEVEL" value="6" />
+
+      </properties>
+
+      <testcase classname="testcases.LoginTest" name="loginTest[0]" time="0.005" />
+
+      <testcase classname="testcases.LoginTest" name="loginTest[1]" time="0.001" />
+
+      <testcase classname="testcases.LoginTest" name="loginTest[2]" time="0.0" />
+
+      <testcase classname="testcases.LoginTest" name="loginTest[3]" time="0.0" />
+
+      <testcase classname="testcases.ShopMobilePhone" name="checkout" time="0.006">
+          <skipped message="got: &lt;false&gt;, expected: is &lt;true&gt;" />
+
+      </testcase>
+
+      <testcase classname="testcases.ShopMobilePhone" name="searchForMobile" time="0.001" />
+
+      <testcase classname="testcases.ShopMobilePhone" name="selectingMobile" time="0.0" />
+
+      <testcase classname="testcases.Validations" name="validate" time="0.011">
+          <failure message="expected:&lt;A[]&gt; but was:&lt;A[l]&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: expected:&lt;A[]&gt; but was:&lt;A[l]&gt;
+	at testcases.Validations.validate(Validations.java:23)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+</failure>
+
+          <failure message="Had to be logged in but not logged in" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Had to be logged in but not logged in
+	at testcases.Validations.validate(Validations.java:48)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+</failure>
+
+      </testcase>
+
+      <system-out><![CDATA[U1----P1----Mozilla
+U2----P2----Chrome
+U3----P3----Edge
+U4----P4----Safari
+Search for Mobile
+Selecting Mobile
+Start
+Some error: expected:<A[]> but was:<A[l]>
+End
+Pass 4<12 the case
+Pass 4<2 the case
+Some error: Had to be logged in but not logged in
+]]></system-out>
+
+      <system-err><![CDATA[]]></system-err>
+
+  </testsuite>
+</testsuites>

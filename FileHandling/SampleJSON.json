@@ -1,0 +1,58 @@
+{
+  "testdata": [
+    {
+      "testName": "StudentsDetailsPage",
+      "data": [
+        {
+          "name": "Rashmi Nagaleekar",
+          "class": "5th Class",
+          "age": "10",
+        },
+        {
+          "name": "Chaithra H",
+          "class": "2nd Class",
+          "age": "6",
+        },
+        {
+          "name": "Kanchana",
+          "class": "10th Class",
+          "age": "15",
+        }
+      ]
+    },
+    {
+      "testName": "StudentsRankPage",
+      "data": [
+        {
+          "name": "Rashmi Nagaleekar",
+          "rank": "FC"
+        },
+        {
+          "name": "Chaithra H",
+          "rank": "FCD"
+        },
+        {
+          "name": "Kanchana",
+          "rank": "FC"
+        }
+      ]
+    },
+    {
+      "testName": "StudentsLocationPage",
+      "data": [
+        {
+          "name": "Rashmi Nagaleekar",
+          "location": "Hyderabad"
+        },
+        {
+          "name": "Chaithra H",
+          "location": "Bangalore"
+        },
+        {
+          "name": "Kanchana",
+          "location": "Chennai"
+        }
+      ]
+    }
+  ]
+}

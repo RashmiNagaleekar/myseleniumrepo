@@ -1,0 +1,6 @@
+mvn - to check whether maven is configured or not
+mvn archetype:generate - make a project
+groupid - package name
+artifactid - project
+mvn compile - download the jars as mentioned in pom.xml
+mvn eclipse:eclipse - convert folder to eclipse project

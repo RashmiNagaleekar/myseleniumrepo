@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="2" hostname="Rashmi" name="testcases.CustomProjectRunner" skipped="1" tests="8" time="0.135" timestamp="2023-04-20T11:03:48">
+  <properties>
+    <property name="ant.library.dir" value="C:\Users\Lenovo\Downloads\eclipse-java-2022-12-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.10.12.v20211102-1452\lib" />
+    <property name="project.build.directory" value="target" />
+    <property name="java.specification.version" value="19" />
+    <property name="ant.project.name" value="JunitProject2-from-maven" />
+    <property name="sun.cpu.isalist" value="amd64" />
+    <property name="sun.jnu.encoding" value="Cp1252" />
+    <property name="maven.reporting.outputDirectory" value="target/site" />
+    <property name="java.class.path" value="C:\Users\Lenovo\.m2\repository\junit\junit\4.13-beta-1\junit-4.13-beta-1.jar;C:\Users\Lenovo\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Lenovo\eclipse-workspace\JunitProject2\target\classes;C:\Users\Lenovo\eclipse-workspace\JunitProject2\target\test-classes;C:\Users\Lenovo\Downloads\eclipse-java-2022-12-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.10.12.v20211102-1452\lib\ant-launcher.jar;C:\Users\Lenovo\Downloads\eclipse-java-2022-12-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.10.12.v20211102-1452\lib\ant.jar;C:\Users\Lenovo\Downloads\eclipse-java-2022-12-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.10.12.v20211102-1452\lib\ant-junit.jar;C:\Users\Lenovo\Downloads\eclipse-java-2022-12-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.10.12.v20211102-1452\lib\ant-junit4.jar" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="user.variant" value="" />
+    <property name="java.vendor.url" value="https://java.oracle.com/" />
+    <property name="ant.file.type.JunitProject2-from-maven" value="file" />
+    <property name="maven.build.outputDir" value="target/classes" />
+    <property name="project.build.outputDirectory" value="target/classes" />
+    <property name="maven.build.testResourceDir.0" value="src/test/resources" />
+    <property name="java.vm.specification.version" value="19" />
+    <property name="os.name" value="Windows 11" />
+    <property name="maven.build.resourceDir.0" value="src/main/resources" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="user.country" value="IN" />
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-19\bin" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner testcases.CustomProjectRunner skipNonTests=false filtertrace=true haltOnError=true haltOnFailure=true formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Lenovo\eclipse-workspace\JunitProject2\target\test-reports\TEST-testcases.CustomProjectRunner.xml formatter=org.apache.tools.ant.taskdefs.optional.junit.PlainJUnitResultFormatter crashfile=C:\Users\Lenovo\eclipse-workspace\JunitProject2\junitvmwatcher4559810129652250133.properties propsfile=C:\Users\Lenovo\eclipse-workspace\JunitProject2\junit16396237044299231093.properties" />
+    <property name="jdk.debug" value="release" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="user.home" value="C:\Users\Lenovo" />
+    <property name="user.language" value="en" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="java.version.date" value="2022-10-18" />
+    <property name="java.home" value="C:\Program Files\Java\jdk-19" />
+    <property name="maven.build.testOutputDir" value="target/test-classes" />
+    <property name="basedir" value="." />
+    <property name="file.separator" value="\" />
+    <property name="java.vm.compressedOopsMode" value="32-bit" />
+    <property name="maven.build.srcDir.0" value="src/main/java" />
+    <property name="line.separator" value="&#xd;&#xa;" />
+    <property name="ant.java.version" value="19" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="maven.build.dir" value="target" />
+    <property name="maven.build.testDir.0" value="src/test/java" />
+    <property name="user.script" value="" />
+    <property name="maven.build.finalName" value="JunitProject2-0.0.1-SNAPSHOT" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="java.runtime.version" value="19.0.1+10-21" />
+    <property name="java.security.manager" value="allow" />
+    <property name="user.name" value="Lenovo" />
+    <property name="ant.file" value="C:\Users\Lenovo\eclipse-workspace\JunitProject2\maven-build.xml" />
+    <property name="stdout.encoding" value="Cp1252" />
+    <property name="path.separator" value=";" />
+    <property name="maven.settings.interactiveMode" value="true" />
+    <property name="os.version" value="10.0" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="file.encoding" value="UTF-8" />
+    <property name="ant.project.invoked-targets" value="package" />
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="ant.core.lib" value="C:\Users\Lenovo\Downloads\eclipse-java-2022-12-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.10.12.v20211102-1452\lib\ant.jar" />
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/" />
+    <property name="java.io.tmpdir" value="C:\Users\Lenovo\AppData\Local\Temp\" />
+    <property name="java.version" value="19.0.1" />
+    <property name="user.dir" value="C:\Users\Lenovo\eclipse-workspace\JunitProject2" />
+    <property name="os.arch" value="amd64" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="maven.test.reports" value="target/test-reports" />
+    <property name="ant.home" value="C:\Users\Lenovo\Downloads\eclipse-java-2022-12-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.10.12.v20211102-1452" />
+    <property name="maven.settings.offline" value="false" />
+    <property name="sun.os.patch.level" value="" />
+    <property name="junit.present" value="true" />
+    <property name="native.encoding" value="Cp1252" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.10.12 compiled on October 13 2021" />
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-19\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Users/Lenovo/Downloads/eclipse-java-2022-12-R-win32-x86_64/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.6.v20230204-1729/jre/bin/server;C:/Users/Lenovo/Downloads/eclipse-java-2022-12-R-win32-x86_64/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.6.v20230204-1729/jre/bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-19\bin;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-11.0.17\jdk-11.0.17\bin;F:\Selenium\apache-maven-3.9.1-bin\apache-maven-3.9.1\bin;F:\Selenium\apache-ant-1.9.16-bin\apache-ant-1.9.16\bin;C:\Users\Lenovo\AppData\Local\Microsoft\WindowsApps;;C:\Users\Lenovo\Downloads\eclipse-java-2022-12-R-win32-x86_64\eclipse;;." />
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="stderr.encoding" value="Cp1252" />
+    <property name="java.vm.info" value="mixed mode, sharing" />
+    <property name="ant.file.JunitProject2-from-maven" value="C:\Users\Lenovo\eclipse-workspace\JunitProject2\maven-build.xml" />
+    <property name="java.vm.version" value="19.0.1+10-21" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="maven.repo.local" value="C:\Users\Lenovo/.m2/repository" />
+    <property name="java.class.version" value="63.0" />
+    <property name="ant.project.default-target" value="package" />
+  </properties>
+  <testcase classname="testcases.LoginTest" name="loginTest[0]" time="0.008" />
+  <testcase classname="testcases.LoginTest" name="loginTest[1]" time="0.001" />
+  <testcase classname="testcases.LoginTest" name="loginTest[2]" time="0.0" />
+  <testcase classname="testcases.LoginTest" name="loginTest[3]" time="0.0" />
+  <testcase classname="testcases.ShopMobilePhoneTest" name="checkout" time="0.005">
+    <skipped message="got: &lt;false&gt;, expected: is &lt;true&gt;" />
+  </testcase>
+  <testcase classname="testcases.ShopMobilePhoneTest" name="searchForMobile" time="0.001" />
+  <testcase classname="testcases.ShopMobilePhoneTest" name="selectingMobile" time="0.0" />
+  <testcase classname="testcases.Validations" name="validate" time="0.01">
+    <failure message="expected:&lt;A[]&gt; but was:&lt;A[l]&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: expected:&lt;A[]&gt; but was:&lt;A[l]&gt;
+	at testcases.Validations.validate(Validations.java:23)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+</failure>
+    <failure message="Had to be logged in but not logged in" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Had to be logged in but not logged in
+	at testcases.Validations.validate(Validations.java:48)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+</failure>
+  </testcase>
+  <system-out><![CDATA[U1----P1----Mozilla
+U2----P2----Chrome
+U3----P3----Edge
+U4----P4----Safari
+Search for Mobile
+Selecting Mobile
+Start
+Some error: expected:<A[]> but was:<A[l]>
+End
+Pass 4<12 the case
+Pass 4<2 the case
+Some error: Had to be logged in but not logged in
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

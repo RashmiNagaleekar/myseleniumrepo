@@ -1,0 +1,6 @@
+Reusable code
+Reports generated
+Batch run the test cases
+Example: 6 test cases, 4 are Sanity and 2 are Smoke test cases. Should be able to run any
+Parallel execution, Maven
+Single data providers 
